@@ -15,8 +15,7 @@ COLOR = [
     "olive", "pink"
 ]
 count = len(COLOR)
-
-FONT = ("Times New Roman", WINDOW_SIZE // count)
+FONT = ("Times, New Roman", WINDOW_SIZE // count)
 
 rows = count // 2
 step = WINDOW_SIZE // (rows + 1)
